@@ -1,0 +1,125 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Utilities */
+
+h4
+{
+    text-transform: uppercase;
+}
+
+
+/* CONTAINER */
+
+.container
+{
+    width: 50%;
+    margin: 30px auto;
+}
+
+/* SHOES */
+
+.SHOE
+{
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    display: inline-block;
+    position: relative;
+}
+
+.SHOE img 
+{
+    width: 100%;
+}
+
+.side
+{
+    display: block;
+}
+
+.SHOE:hover .side
+{
+    display: none;
+}
+
+.top
+{
+    display: none;
+}
+
+.SHOE:hover .top
+{
+    display: block;
+}
+
+/* HEARTS-LIKE */
+
+.like
+{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    font-size: 20px;
+    color: #7F7F7F;
+    padding: 4px 10px;
+    border-radius: 50%;
+    background-color: #D2D2D2;
+}
+
+.like:hover
+{
+    box-shadow: 1px 1px 3px black;
+    color: red;
+}
+
+/* SALE TAGS */
+
+.discount , .eco
+{
+    font-size: 12px;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    bottom: 15%;
+
+}
+
+.discount
+{
+    background-color: red;
+}
+
+.eco
+{
+    background-color: #007B15;
+    left: 14%;
+}
+
+/* PRICES */
+
+h6
+{
+    font-weight: 800;
+}
+
+.price
+{
+    color: red;
+}
+
+.sbarrato
+{
+    text-decoration: line-through;
+    color: black;
+}
+
+
+
+
+
